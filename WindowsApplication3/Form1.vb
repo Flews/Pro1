@@ -8,4 +8,9 @@
         MsgBox("Hallo, World!!")
 
     End Sub
+
+    Private Sub TextBox1_TextChanged(sender As Object, e As EventArgs) Handles TextBox1.TextChanged
+        MsgBoxResult("Vul hier tekst in.")
+
+    End Sub
 End Class
